@@ -1,0 +1,6 @@
+,precision,recall,f1,auc
+Rule-Based,0.074,0.698,0.133,
+TF-IDF + LR,0.642,0.919,0.756,0.992
+TF-IDF + RF,1.0,0.547,0.707,0.992
+TF-IDF + XGBoost,0.921,0.814,0.864,0.986
+Semantic Similarity,0.8,0.186,0.302,
