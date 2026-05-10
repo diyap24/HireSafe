@@ -1,19 +1,8 @@
-# Core ML Libraries
-numpy>=1.24.0,<2.0.0
-pandas>=1.5.0,<2.0.0
-scikit-learn>=1.2.0,<1.4.0
-xgboost>=1.7.0,<2.0.0
-scipy>=1.10.0,<1.12.0
-
-# Web Framework
-streamlit>=1.22.0,<2.0.0
-
-# Visualization
-plotly>=5.14.0,<6.0.0
-
-# NLP & Text Processing
-regex>=2023.0.0
-
-# Utilities
-joblib>=1.2.0
-python-dateutil>=2.8.0
+# Core dependencies only - let Streamlit Cloud handle the rest
+streamlit
+xgboost
+scikit-learn
+pandas
+numpy
+plotly
+joblib
